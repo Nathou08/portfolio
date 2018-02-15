@@ -1,0 +1,52 @@
+<div class="margin_footer container">
+    <div class="titre animated bounceIn">
+        <h1 class="text-center">Développeur web</h1>
+    </div>
+    <div class="header row animated bounceIn">
+        <div class="col-md-8 presentation text-center">
+            <span class="animated fadeIn">PAROT </span><span class="animated fadeIn"> Nathaniel</span>
+            <p class="animated fadeIn">18ans</p>
+        </div>
+    </div>
+    <div class="row justify-content-around">
+        <div class="col-12 col-sm-5 row competence">
+            <div class="animated col-12 col-lg-6 bounceIn">
+                <p class="title animated fadeInLeftBig">Compétences:</p>
+                <h4 class="animated fadeIn un response">HTML5</h4>
+                <h4 class="animated fadeIn un response">CSS3</h4>
+                <h4 class="animated fadeIn deux response">Javascript</h4>
+                <h4 class="animated fadeIn deux response">PHP</h4>
+                <h4 class="animated fadeIn trois response">MYSQL/PhpMyAdmin</h4>
+                <h4 class="animated fadeIn trois response">Git/GitHub</h4>
+                <h4 class="animated fadeIn quatre response">Angular4</h4>
+                <h4 class="animated fadeIn quatre response">WordPress</h4>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p>Test api world of tanks</p>
+                <table>
+                    <th>id</th>
+                    <th>pseudo</th>
+                    <tr *ngFor = "let players of wot">
+                        <td>{{players.account_id}}</td>
+                        <td>{{players.nickname}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="parcours col-sm-5 col-12 animated bounceIn">
+            <section>
+                <p class="title animated fadeInRightBig">Parcours:</p>
+                <p class="animated fadeIn un response">2017 : Formation Développement de site web ( en cours )<br/></p>
+                <p class="animated fadeIn deux response"><abbr title="Stages maintenance des véhicules chez SUBARU Valenti (8 semaines)">2016</abbr> : CAP maintenance des véhicules ( obtenu )</p>
+            </section>
+            <section>
+                <p class="title animated fadeInRightBig deuxDemi">Divers:</p>
+                <p class="animated fadeIn trois response">Bénévolat CCFF Protection forestière de Tolla (corse)</p>
+            </section>
+            <section>
+                <p class="title animated fadeInRightBig troisDemi">Loisirs:</p>
+                <p class="animated fadeIn quatre response">Jeux vidéos (PC)</p>
+            </section>
+        </div>
+    </div>
+</div>

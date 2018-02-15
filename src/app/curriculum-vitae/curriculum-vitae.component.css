@@ -1,0 +1,70 @@
+
+.presentation{
+    font-size:68px;
+}
+.un{
+    animation-delay:0.2s;
+}
+.unDemi{
+    animation-delay: 0.3;
+}
+.deux{
+    animation-delay:0.4s;
+}
+.deuxDemi{
+    animation-delay:0.5s;
+}
+.trois{
+    animation-delay:0.6s;
+}
+.troisDemi{
+    animation-delay: 0.7s;
+}
+.quatre{
+    animation-delay:0.8s;
+}
+.titre{
+    margin-top:10px;
+    background-color:#81A9BC;
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-radius:5px;
+}
+.header{
+    margin-top:10px;;
+    background-color:#B7D7E3;
+    border-radius:10px;
+    padding:10px 10px;
+}
+.competence{
+    padding:10px 10px;
+    margin-top:10px;
+    background-color:#81A9BC;
+    border-radius:10px;
+}
+.competence h2 b{
+    text-decoration: underline;
+}
+.title{
+    text-decoration: underline;
+    font-weight:bold;
+    font-size:150%;
+    
+}
+.parcours{
+    margin-top:10px;
+    float:right;
+    background-color:#81A9BC;
+    padding:10px 10px;
+    border-radius: 10px;
+    
+}
+.response{
+    font-size:110%;
+}
+table, th, tr, td{
+    border:1px solid black;
+}
+.margin_footer{
+    margin-bottom: 90px;
+}

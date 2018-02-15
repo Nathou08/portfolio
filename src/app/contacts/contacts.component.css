@@ -1,0 +1,28 @@
+body{
+    background-attachment: fixed;
+}
+.selectmessage{
+    width:50%;
+    margin-bottom:1%;
+}
+.envoyer{
+    margin-top:2%;
+}
+.retour{
+   float:left; 
+}
+.bouton {
+    padding:10px 10px;
+    background-image:linear-gradient(#81A9BC, #B7D7E3);
+    border-radius:10px;
+    border:none;
+}
+.bouton:hover {
+    padding:10px 10px;
+    background-image:linear-gradient(#B7D7E3, #81A9BC);
+    border-radius:10px;
+    border:none;
+}
+.confirmation{
+    margin-bottom: 90px;
+}
